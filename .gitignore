@@ -1,0 +1,23 @@
+bootstrap/compiled.php
+vendor/
+composer.phar
+composer.lock
+.env.*.php
+.env.php
+.DS_Store
+Thumbs.db
+
+# local config files
+app/config/local/*.php
+
+# PHPStorm files
+.idea/
+
+# IDE helper
+ide_helper.php
+
+# Ctags file
+tags
+
+# VIM swap file
+*.swp
