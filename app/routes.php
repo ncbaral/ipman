@@ -11,7 +11,21 @@
 |
 */
 
-Route::get('/', function()
+use Illuminate\Http\Response;
+use Illuminate\Support\Facades\View;
+
+Route::get('/login', function()
 {
-	return View::make('hello');
+  return View::make('login');
+
 });
+
+
+Route::get('/*', function()
+{
+    return View::make('pages.site');
+
+
+
+});
+
