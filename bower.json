@@ -1,0 +1,19 @@
+{
+  "name": "ipman",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ncbaral/ipman",
+  "authors": [
+    "ncbaral <nirmalcbaral@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -21,3 +21,12 @@ tags
 
 # VIM swap file
 *.swp
+
+/.idea/
+/node_modules/
+/bower_components/
+.sass-cache/
+/npm-debug.log
+/.bundle/
+
+/public/bower_components/
